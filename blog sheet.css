@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;1,300;1,400&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box
+}
+.session_one{
+    
+    background-image: url(./image/bg-pattern-intro-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 25%;
+    height: 450px;
+    border-radius: 0px 0px 0px 90px;
+    background-color: hsl(356, 100%, 66%);
+    padding-top: 40px;
+    box-shadow: 50%;
+} 
+.group_one{
+    display: flex;
+    gap: 30px;
+}
+.group_two{
+    gap: 20px;
+    padding-left: 580px;
+    padding-top: 15px;
+}
+.blog{
+    font-family: 'overpass';
+    color: white;
+    font-size: 25px;
+    padding-left: 100px;
+}
+.company{
+    color: white;
+    font-family: "overpass";
+    font-size: 20px;
+}
+.container_one{
+
+    display: flex;
+    gap: 5px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.container_two{
+    display: flex;
+    gap: 5px;
+    padding-top: 10px
+}
+.container_three{
+    display: flex;
+    gap: 5px;
+    padding-top: 10px
+    
+}
+.container_four{
+    display: flex;
+    gap: 25px;
+}
+.icon{
+    padding-top: 0px;
+}
+.unity{
+    display: flex;
+}
+.login{
+    font-family: "overpass";
+    font-size: 20px;
+    color: white;
+    padding-top: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+   
+}
+.sign_up{
+    background-color: white;
+    color: hsl(356, 100%, 66%);
+    font-family: 'overpass';
+    font size:20px;
+    border-radius: 30px;
+    width: 100px ;
+    border: none;
+    height: 28px ;
+}
+.modern{
+    font-family: 'Overpass';
+    font-size: 100px;
+    color: white;
+    padding-top: 90px;
+    padding-left: 300px;
+}
+.audience{
+    font-family: "overpass";
+    color: white;
+    padding-left: 500px;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.group_three{
+    font-family: "overpass";
+    font-size: 10px;
+    text-align: center;
+    padding-top: 30px;
+    gap: 50px;
+    padding-left: 20px;
+    
+   
+}
+.start{
+    background-color: white;
+    color: hsl(356, 100%, 66%);
+    font-family: 'overpass';
+    font size:30px;
+    border-radius: 30px;
+    width: 100px ;
+    border: none;
+    height: 28px ;
+
+}
+.learn{
+    background-color: hsl(356, 100%, 66%);
+    color: white;
+    font-family: 'overpass';
+    font size:30px;
+    border-radius: 30px;
+    width: 100px ;
+    border: none;
+    height: 28px ;
+    border: 2px white solid;
+    margin-left: 20px;
+}
+.session_two{
+    /*border: 1px blue solid;*/
+    height: 840px;
+    background-image: url(./image/illustration-editor-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 160%;
+    background-size: 800px;
+}
+.designed{
+    font-family: 'overpass';
+    font-size: 40px;
+    color:  hsl(208, 49%, 24%);
+    padding-top: 120px;
+    padding-left: 550px;
+    
+}
+.container_five{
+    font-family: 'overpass';
+    padding-top: 30px;
+    padding-left: 100px;
+}
+.introduction{
+    font-size: 45px;
+    color:hsl(208, 49%, 24%) ;
+    padding-top: 30px;
+}
+.Blogar{
+    padding-top: 20px;
+    font-size: 20px;
+    color:hsl(208, 49%, 24%) ;
+}
+.container_six{
+    font-family: 'overpass';
+    padding-top: 60px;
+    padding-left: 100px;
+}
+.session_three{
+    border-radius: 0px 90px 0pc 90px;
+    height: 350px;
+    background-image: url(./image/bg-pattern-circles.svg);
+    background-repeat: no-repeat;
+    background-position: -300px;
+    background-position-y: -400px;
+    background-position-x: -150px;
+    background-size:860px;
+    position: relative;
+    background-color: hsl(208, 49%, 24%);
+    
+}
+.container_seven{
+    /*display: flex;*/
+    padding-left: 250px;
+    padding-top: 0px;
+}
+.phone{
+    position: absolute;
+    margin-bottom: 10px;
+    bottom: -130px;
+    right: 700px;
+    size: 30px;
+    box-shadow: 800px;
+}
+.reliability{
+    padding-left: 8px;
+    font-size: 15px;
+    padding-top: 30px;
+}
+.container_eight{
+    padding-left: 500px;
+    font-family: 'overpass';
+    /*font-size: 30px;*/
+    padding-top: 90px;
+    color: white;
+}
+.state{
+    padding-top: 20px;
+}
+.session_four{
+    /*border: 1px blue solid;*/
+    height: 840px;
+    background-image: url(./image/illustration-laptop-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: -42%;
+    background-size: 800px;
+    
+}
+.free{
+    padding-left: 700px;
+    font-family: 'overpass';
+    font-size: 30px;
+    color:hsl(208, 49%, 24%) ;
+    padding-top: 250px;
+}
+.open{
+    padding-left: 700px;
+    font-family: 'overpass';
+    font-size: 15px;
+    color:hsl(208, 49%, 24%) ;
+    padding-top: 20px;  
+}
+.powerful{
+    padding-left: 700px;
+    font-family: 'overpass';
+    font-size: 30px;
+    color:hsl(208, 49%, 24%) ;
+    padding-top: 60px;
+}
+
+.session_five{
+    /*border: 1px blue solid;*/
+    height: 300px;
+    background-color:hsl(208, 49%, 24%) ;
+    display: flex;
+    padding-top: 50px;
+    gap: 120px;
+}
+.cd{ 
+   font-family: 'overpass';
+   font-size: 45px;
+   color: white;
+   /*padding-top: 80px;*/
+   padding-left: 120px;
+}
+.container_nine{
+    display: flex;
+    gap: 220px;
+    padding-left: 70px;
+}
+.group_six{
+    padding-top: 20px;
+    font-family: 'overpass';
+    font-size: 14px;
+    color: white;
+}
+.group_four{
+    padding-top: 20px;
+    font-family: 'overpass';
+    font-size: 14px;
+    color: white; 
+}
+.group_five{
+    padding-top: 20px;
+    font-family: 'overpass';
+    font-size: 14px;
+    color: white; 
+}
+.view{
+    padding-top: 30px;
+    font-size: 16px;
+}
+.pr{
+    padding-top: 10px;
+    font-size: 16px;
+}
+.mr{
+    padding-top: 10px;
+    font-size: 16px; 
+}
+.fr{
+    padding-top: 10px;
+    font-size: 16px; 
+}
+.in{
+    padding-top: 10px;
+    font-size: 16px; 
+}
+
